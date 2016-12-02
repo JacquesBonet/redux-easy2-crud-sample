@@ -1,0 +1,12 @@
+.app__product-selection button {
+  background-color: #3e7e92;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2em;
+  margin: 0 0.1em;
+  padding: 0.1em 0.2em;
+  text-decoration: none;
+}

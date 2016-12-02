@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "productCode": "FR1",
+      "id": "zl3zoeha03v11mezsemi_0",
+      "price": 0,
+      "path": "PRODUCTS",
+      "type": "CREATE"
+    },
+    {
+      "productCode": "FR1",
+      "id": "6jv4p1spc4trmef561or_0",
+      "price": 0,
+      "path": "PRODUCTS",
+      "type": "CREATE"
+    },
+    {
+      "productCode": "FR1",
+      "id": "f134fwe9796pdsu4n29_0",
+      "price": 0,
+      "path": "PRODUCTS",
+      "type": "CREATE"
+    },
+    {
+      "productCode": "FR1",
+      "id": "7a1tk4uxzojnyh8pk3xr_0",
+      "price": 0,
+      "path": "PRODUCTS",
+      "type": "CREATE"
+    },
+    {
+      "productCode": "FR1",
+      "id": "vth70wdppbwk2187u8fr_0",
+      "price": 0,
+      "path": "PRODUCTS",
+      "type": "CREATE"
+    },
+    {
+      "productCode": "FR1",
+      "id": "tewdzm4w9ly2r6drq9f6r_0",
+      "price": 0,
+      "path": "PRODUCTS",
+      "type": "CREATE"
+    },
+    {
+      "productCode": "FR1",
+      "id": "hh9bi7t8aatxnku766r_0",
+      "price": 0,
+      "path": "PRODUCTS",
+      "type": "CREATE"
+    },
+    {
+      "productCode": "CF1",
+      "path": "PRODUCTS",
+      "type": "CREATE",
+      "id": "hh9bi7t8aatxnku766r"
+    },
+    {
+      "productCode": "FR1",
+      "id": "o43wuf5t6i9y81mijxlxr_0",
+      "price": 0,
+      "path": "PRODUCTS",
+      "type": "CREATE"
+    },
+    {
+      "productCode": "FR1",
+      "id": "w89lq8myzpovdplqbbj4i_0",
+      "price": 0,
+      "path": "PRODUCTS",
+      "type": "CREATE"
+    },
+    {
+      "productCode": "FR1",
+      "id": "q0yfmg1timc4y8axajor_0",
+      "price": 0,
+      "path": "PRODUCTS",
+      "type": "CREATE"
+    },
+    {
+      "productCode": "AP1",
+      "path": "PRODUCTS",
+      "type": "CREATE",
+      "id": "q0yfmg1timc4y8axajor"
+    }
+  ]
+}

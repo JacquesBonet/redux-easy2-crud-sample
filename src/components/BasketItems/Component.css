@@ -1,0 +1,61 @@
+.basketlist ul {
+  padding-left: 0;
+}
+
+.basketlist ul > li {
+  font-size: 1.5em;
+  list-style: none;
+  padding: 0.2em;
+}
+
+.basketitem {
+  padding: 10px;
+  height: 26px;
+  position: relative;
+  border-bottom: 1px solid #CCC;
+}
+
+.basketitem__free {
+  padding: 10px;
+  height: 26px;
+  position: relative;
+}
+
+
+.basketitem__name {
+  width: 140px;
+  text-align: left;
+  float: left;
+  margin-left: 43%;
+}
+
+.basketitem__name::after {
+  content: ": ";
+}
+
+.basketitem__freevalue {
+  color: #070;
+  width: 100px;
+  text-align: left;
+  float: left;
+  margin-left: 20px;
+}
+
+
+.basketitem__value {
+  width: 100px;
+  text-align: left;
+  float: left;
+  margin-left: 20px;
+}
+
+.basketitem__button {
+  margin-left: 20px;
+  float: left;
+  top: 6px;
+  left: 30px;
+  display: none;
+}
+.basketitem:hover button {
+  display: inline;
+}
