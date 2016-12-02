@@ -6,6 +6,8 @@ I have created a products actions file. This is not mandatory, you can use direc
 
 The middleware on the project is just for project sample. Is not mandatory to have a middleware when we use redux-easy2-crud actions
 
+Check the size of the products reducer: one line of code!!!
+
 
 
 ### Install
