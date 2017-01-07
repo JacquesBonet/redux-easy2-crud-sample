@@ -1,0 +1,11 @@
+exports[`BasketItemsComponent should have title Apple for AP1 1`] = `"<span class=\"basketitem__name\">Apple</span>"`;
+
+exports[`BasketItemsComponent should have title Apple for AP1 2`] = `"<span class=\"basketitem__name\">Apple</span>"`;
+
+exports[`BasketItemsComponent should have title Coffee for CF1 1`] = `"<span class=\"basketitem__name\">Coffee</span>"`;
+
+exports[`BasketItemsComponent should have value $5.00 for AP1 1`] = `"<span class=\"basketitem__value\">$5.00</span>"`;
+
+exports[`BasketItemsComponent should have value $5.00 for AP1 2`] = `"<span class=\"basketitem__value\">$5.00</span>"`;
+
+exports[`BasketItemsComponent should have value $11.23 for CF1 1`] = `"<span class=\"basketitem__value\">$11.23</span>"`;

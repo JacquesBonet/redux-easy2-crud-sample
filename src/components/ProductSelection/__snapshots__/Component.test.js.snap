@@ -1,0 +1,5 @@
+exports[`ProductSelectionComponent render product buttons should have title Apple 1`] = `"<button>Apple</button>"`;
+
+exports[`ProductSelectionComponent render product buttons should have title Coffee 1`] = `"<button>Coffee</button>"`;
+
+exports[`ProductSelectionComponent render product buttons should have title Fruit Tea 1`] = `"<button>Fruit Tea</button>"`;

@@ -25,7 +25,7 @@ describe('reducer', function () {
     it('adds the product code to the array', function () {
       const action = actions.createSuccess(product);
       state = products(state, action);
-      expect(state[0].productCode).toEqual('AP1');
+      expect(state[0].productCode).toMatchSnapshot();;
     });
   });
 });

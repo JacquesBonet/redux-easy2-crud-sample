@@ -2,22 +2,17 @@ import React from "react";
 import {shallow} from "enzyme";
 import ProductSelection from "./Component";
 import AddProductButton from "./AddProductButton";
-import sinon from "sinon";
-import {expect} from "chai";
 import {getProductCodes, getProductName} from "../../config/products";
 
 describe('ProductSelectionComponent', function () {
   describe('render', function () {
     const productsActions = {
-      addProduct : sinon.spy()
+      addProduct : jest.fn()
     };
     const productCodes = getProductCodes();
     let component;
     beforeEach(function () {
       component = shallow(<ProductSelection productsActions={productsActions}/>);
-    });
-    afterEach(function () {
-      productsActions.addProduct.reset();
     });
 
     describe('product buttons', function () {
@@ -28,7 +23,7 @@ describe('ProductSelectionComponent', function () {
       });
 
       it('should have three products', function () {
-        expect(productButtons).to.have.length(productCodes.length);
+        expect(productButtons).toHaveLength(productCodes.length);
       });
 
       productCodes.forEach(function (productCode, idx) {
@@ -39,12 +34,12 @@ describe('ProductSelectionComponent', function () {
         });
 
         it(`should have title ${expectedTitle}`, function () {
-          expect(productButton).to.have.prop('title', expectedTitle);
+          expect(productButton.html()).toMatchSnapshot();
         });
 
         it('should pass the product code to addProduct when clicked', function () {
           productButton.simulate('click');
-          expect(productsActions.addProduct).to.have.been.calledWith({productCode});
+          expect(productsActions.addProduct).toHaveBeenCalledWith({productCode});
         });
       });
     });

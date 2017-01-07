@@ -14,10 +14,17 @@ Check the size of the products reducer: one line of code!!!
 
 ### Install
 
+* 'sudo npm install -g create-react-app'
 * `npm install`
 * `npm run server`
+
+### Run
 
 Open a new console  and type
 
 * `npm run start`
+
+### Test
+
+* 'npm test'
 

@@ -2,7 +2,6 @@ import React from "react";
 import {shallow} from "enzyme";
 import BasketList from "./BasketList";
 import BasketItem from "./BasketItem";
-import {expect} from "chai";
 import {getProductName, getProductValue} from "../../config/products";
 import formatCurrency from "../../formatCurrency";
 
@@ -21,18 +20,16 @@ describe('BasketItemsComponent', function () {
     let expectedName = getProductName(product);
     let expectedValue = formatCurrency(getProductValue(products, idx));
 
-    console.log( "expectedValue = " + expectedValue);
-
     beforeEach(function () {
       productItemComponent = component.find('li').at(idx).find(BasketItem).shallow();
     });
 
     it(`should have title ${expectedName} for ${productCode}`, function () {
-      expect(productItemComponent.find('.basketitem__name')).to.contain(expectedName);
+      expect(productItemComponent.find('.basketitem__name').html()).toMatchSnapshot();
     });
 
     it(`should have value ${expectedValue} for ${productCode}`, function () {
-      expect(productItemComponent.find('.basketitem__value')).to.contain(expectedValue);
+      expect(productItemComponent.find('.basketitem__value').html()).toMatchSnapshot();
     });
   });
 });
