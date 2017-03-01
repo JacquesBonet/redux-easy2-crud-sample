@@ -6,6 +6,7 @@ redux-easy2-crud is a CRUD Redux Middleware.
 
 ### Install
 
+* 'sudo npm install -g json-server'
 * 'sudo npm install -g create-react-app'
 * `npm install`
 * `npm run server`
