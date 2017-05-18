@@ -33,7 +33,7 @@ describe('ProductSelectionComponent', function () {
           productButton = productButtons.at(idx);
         });
 
-        it(`should have title ${expectedTitle}`, function () {
+        it(`Match Snapshot`, function () {
           expect(productButton.html()).toMatchSnapshot();
         });
 
