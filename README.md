@@ -1,6 +1,6 @@
 ## Introduction
 
-This project is a sample of the redux-easy2-crud library use.
+This project show how to use the redux-easy2-crud library.
 
 redux-easy2-crud is a CRUD Redux Middleware.
 
